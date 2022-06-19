@@ -213,7 +213,6 @@ body {
   font-size: 15px;
   font-weight: 400;
   color: #fff;
-  text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
@@ -233,7 +232,6 @@ body {
   font-size: 15px;
   font-weight: 400;
   color: #fff;
-  text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
   letter-spacing: 0.25px;
@@ -382,7 +380,6 @@ header
   font-weight: 500;
   font-size: 15px;
   color: #fff;
-  text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -982,6 +979,18 @@ Features Style
   background-image: url(../images/features-icon-white-02.png);
 }
 
+.third-feature:hover .icon {
+  background-image: url(../images/features-icon-white-03.png);
+}
+
+.fourth-feature:hover .icon {
+  background-image: url(../images/features-icon-white-04.png);
+}
+
+.fifth-feature:hover .icon {
+  background-image: url(../images/features-icon-white-05.png);
+}
+
 .features-item .number h6 {
   background-repeat: no-repeat;
   width: 110px;
@@ -1019,6 +1028,18 @@ Features Style
 
 .second-feature .icon {
   background-image: url(../images/features-icon-black-02.png);
+}
+
+.third-feature .icon {
+  background-image: url(../images/features-icon-black-03.png);
+}
+
+.fourth-feature .icon {
+  background-image: url(../images/features-icon-black-04.png);
+}
+
+.fifth-feature .icon {
+  background-image: url(../images/features-icon-black-05.png);
 }
 
 .features-item .icon {
